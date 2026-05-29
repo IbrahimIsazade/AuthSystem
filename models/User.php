@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../core/Cryptographygraphy.php';
+require_once __DIR__ . '/../core/Cryptography.php';
 
 class User {
     private PDO $db;
