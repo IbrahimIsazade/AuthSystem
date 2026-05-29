@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b88cc0e0-d847-4317-ba38-eb0c7e6cdcdc" name="Changes" comment="Project created&#10;* Added file hierarchy" />
+    <list default="true" id="b88cc0e0-d847-4317-ba38-eb0c7e6cdcdc" name="Changes" comment="Project created&#10;* Added file hierarchy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,8 +53,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JavaScript Debug.Database.php.executor": "Run",
+    "JavaScript Debug.index.php.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "PHP Script.Database.php.executor": "Run",
+    "PHP Script.index.php.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "alpha",
@@ -79,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1780052947571</updated>
       <workItem from="1780052948658" duration="1965000" />
-      <workItem from="1780055283023" duration="1797000" />
+      <workItem from="1780055283023" duration="2192000" />
     </task>
     <task id="LOCAL-00001" summary="Project created&#10;* Added file hierarchy">
       <option name="closed" value="true" />

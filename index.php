@@ -7,7 +7,7 @@ require_once __DIR__ . '/core/PasswordGenerator.php';
 require_once __DIR__ . '/models/User.php';
 require_once __DIR__ . '/models/Vault.php';
 
-$dbConnection = new Database()->getConnection();
+$dbConnection = (new Database())->getConnection();
 $userModel = new User($dbConnection);
 $vaultModel = new Vault($dbConnection);
 
