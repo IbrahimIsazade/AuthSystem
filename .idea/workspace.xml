@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b88cc0e0-d847-4317-ba38-eb0c7e6cdcdc" name="Changes" comment="Project created&#10;* Added file hierarchy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Cryptography.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Cryptography.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1780052947571</updated>
       <workItem from="1780052948658" duration="1965000" />
-      <workItem from="1780055283023" duration="1159000" />
+      <workItem from="1780055283023" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary="Project created&#10;* Added file hierarchy">
       <option name="closed" value="true" />
