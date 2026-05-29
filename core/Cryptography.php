@@ -6,7 +6,7 @@ class Cryptography {
     public static function generateMasterKey(): string {
         return bin2hex(random_bytes(16));
     }
-    
+
     public static function encrypt(string $plaintext, string $encryptionKey): string {
         $ivLength = openssl_cipher_iv_length(self::ALGO);
         $iv = openssl_random_pseudo_bytes($ivLength);
