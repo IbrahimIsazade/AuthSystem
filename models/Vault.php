@@ -10,7 +10,7 @@ class Vault {
     }
 
     public function saveEntry(int $userId, string $serviceName, string $plainSecret, string $masterKey): bool {
-        $encryptedPayload = Crypto::encrypt($plainSecret, $masterKey);
+        $encryptedPayload = Cryptography::encrypt($plainSecret, $masterKey);
 
         $stmt = $this->db->prepare("INSERT INTO vault (user_id, service_name, secret_payload) VALUES (?, ?, ?)");
         return $stmt->execute([$userId, $serviceName, $encryptedPayload]);
@@ -22,7 +22,7 @@ class Vault {
 
         $entries = [];
         while ($row = $stmt->fetch()) {
-            $row['decrypted_secret'] = Crypto::decrypt($row['secret_payload'], $masterKey);
+            $row['decrypted_secret'] = Cryptography::decrypt($row['secret_payload'], $masterKey);
             $entries[] = $row;
         }
         return $entries;
