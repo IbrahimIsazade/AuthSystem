@@ -43,9 +43,7 @@ class User {
         return false;
     }
 
-    /**
-     * Requirement 6: Recode the KEY when changing the login password.
-     */
+    // Requirement 6: Recode the KEY when changing the login password.
     public function updatePassword(string $oldPassword, string $newPassword): bool {
         // 1. Verify old password first to ensure authorization and retrieve the decrypted master key
         $stmt = $this->db->prepare("SELECT password, master_key FROM users WHERE id = ?");

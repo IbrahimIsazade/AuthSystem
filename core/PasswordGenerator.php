@@ -1,9 +1,8 @@
 <?php
 
 class PasswordGenerator {
-    /**
-     * Generates a password based on specific character type counts.
-     */
+
+     // Generates a password based on specific character type counts.
     public static function generate(int $lower, int $upper, int $numbers, int $specials): string {
         $charSets = [
             'lower'   => ['count' => $lower, 'chars' => 'abcdefghijklmnopqrstuvwxyz'],
